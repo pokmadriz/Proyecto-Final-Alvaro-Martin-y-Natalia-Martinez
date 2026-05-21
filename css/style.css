@@ -956,10 +956,4 @@ grid-template-columns:1fr;
     transform: scale(1.03);
 }
 
-/* titulo galeria */
-.title img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-}
+
