@@ -1,0 +1,104 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:#0d0d0d;
+    color:white;
+    line-height:1.6;
+}
+
+/* VARIABLES */
+
+:root{
+    --grisOscuro:#111111;
+    --gris:#1f1f1f;
+    --grisClaro:#2f2f2f;
+    --azulBMW:#2D7CE3;
+    --rojoBMW:#c62828;
+    --blanco:#ffffff;
+}
+
+
+/* HEDER  */
+
+.header{
+    background-color:rgba(0,0,0,.95);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.header img{
+    width:80px;
+}
+
+/* RESET */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: Helvetica, Arial, sans-serif; 
+    background-color: #0d0d0d; 
+    color: white; 
+    line-height: 1.6; 
+}
+
+/* VARIABLES */
+:root { 
+    --grisOscuro: #111111; 
+    --gris: #1f1f1f; 
+    --grisClaro: #2f2f2f; 
+    --azulBMW: #2D7CE3; 
+    --rojoBMW: #c62828; 
+    --blanco: #ffffff; 
+}
+
+/* HEADER */
+.header { 
+    background-color: rgba(0,0,0,.95); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 8%; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.header img { width: 80px; }
+
+.menu-desktop { 
+    display: flex; 
+    gap: 40px; 
+    list-style: none; 
+}
+
+.menu-desktop a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    letter-spacing: 2px; 
+    transition: .3s; 
+}
+
+.menu-desktop a:hover { color: var(--azulBMW); }
+
+.menu-desktop span { color: var(--azulBMW); }
+
+
+/* NATY LO DEJO POR AQUI QUE VOY A ENTRENAR, TERMINATE TU HTML Y CORRIGETE LO QUE SEA Y LUEGO ME DICES*/
+
+}
