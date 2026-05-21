@@ -1088,3 +1088,13 @@ galeria */
 .wrapped img:hover{
     transform: scale(1.03);
 }
+
+.wrapped ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapped li{
+    list-style: none;
+}
