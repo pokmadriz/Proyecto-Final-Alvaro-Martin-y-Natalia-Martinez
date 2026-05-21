@@ -1,6 +1,6 @@
-const adultos=document.getElementById("hamburguesa");
-const ninos=document.getElementById("ensalada");
-const ancianos=document.getElementById("pizza");
+const adultos=document.getElementById("adultos");
+const ninos=document.getElementById("ninos");
+const ancianos=document.getElementById("ancianos");
 
 const total=document.getElementById("total");
 
@@ -13,12 +13,14 @@ let precioNino=12;
 let precioAnciano=18;
 let totalPrecio=
 
-(adultos.value*precioAdulto)+
-(ninos.value*precioNino)+
-(ancianos.value*precioAnciano);
+
+(Number(adultos.value) * precioAdulto) +
+(Number(ninos.value) * precioNino) +
+(Number(ancianos.value) * precioAnciano);
 
 
-total.textContent="€"+totalPrecio;
+
+total.textContent = "€" + totalPrecio.toFixed(2);
 
 
 if(totalPrecio>0){
