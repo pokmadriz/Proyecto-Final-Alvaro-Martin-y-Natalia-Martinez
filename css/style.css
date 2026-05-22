@@ -620,13 +620,16 @@ transform:translateY(0);
 .section-5 { 
     display: flex; 
     justify-content: center; 
-    align-items: center; 
+    align-items: stretch; 
     gap: 50px; 
     padding: 100px 10%; 
 }
 
 .section-5 img { 
     width: 50%; 
+    height: auto;
+    min-height: 500px;
+    object-fit: cover;
     border-radius: 15px; 
 }
 
@@ -794,13 +797,16 @@ button:hover {
 .section-5{
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:stretch;
 gap:50px;
 padding:100px 10%;
 }
 
 .section-5 img{
-width:50%;
+width:10%;
+height:auto;
+min-height:400px;
+object-fit:cover;
 border-radius:15px;
 }
 
